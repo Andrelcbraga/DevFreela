@@ -15,7 +15,7 @@ namespace DevFreela.API
         {
             CreateHostBuilder(args).Build().Run();
         }
-
+        // Comentário teste.
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
